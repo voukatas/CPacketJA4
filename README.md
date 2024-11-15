@@ -9,7 +9,13 @@ CPacketJA4 is a network traffic analyzer and fingerprinting tool that generates 
 - **Live Traffic Capture**: Uses `libpcap` to capture network packets in real-time.
 - **Protocol Support**: Handles IPv4, IPv6, TCP ( UDP traffic on the road)
 - **JA4 Fingerprinting**: Generates JA4 fingerprints from TLS (and QUIC handshakes is close)
+- **Specification-Compliant**: Implements the JA4 specification from the [JA4 project](https://foxio.io/).
 - **Efficient Parsing**: Excludes GREASE values, extracts signature algorithms, and identifies supported extensions.
+
+## Credit
+
+CPacketJA4 utilizes the Wireshark traces and specifications provided by the [JA4 project](https://foxio.io/) to ensure accurate fingerprinting. The JA4 fingerprint generation in this tool adheres to the guidelines described in the JA4 project's documentation.
+
 
 ## Current Limitations
 
